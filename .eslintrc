@@ -16,6 +16,11 @@
     "ecmaVersion": 8,
     "sourceType": "module"
   },
+  "settings": {
+    "react": {
+      "version": "18.1"
+    }
+  },
   "plugins": ["react", "prettier"],
   "rules": {
 		"indent": [
