@@ -37,7 +37,7 @@ export const layout = {
     regular: '44px',
   },
 
-  padding: {
+  spacing: {
     card: '20%',
     small: '10px',
     large: '25%',
