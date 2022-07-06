@@ -1,11 +1,11 @@
 /*global describe, it, expect*/
 import * as React from 'react'
 import NewFeedback from './NewFeedback'
-import fieldTexts from '@/utils/content/fields'
+import { fieldsText } from '@/utils/content/fields'
 import { screen, render } from '@testing-library/react'
 
 describe('A user', () => {
-  const { titleField, categoryField, textareaField } = fieldTexts
+  const { titleField, categoryField, textareaField } = fieldsText
 
   it('can see three fields to write on', () => {
     render(<NewFeedback />)

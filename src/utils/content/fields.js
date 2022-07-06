@@ -1,4 +1,4 @@
-const fieldsText = {
+export const fieldsText = {
   titleField: {
     title: 'Feedback Title',
     label: 'Add a short, descriptive headline',
@@ -15,5 +15,3 @@ const fieldsText = {
     name: 'message',
   },
 }
-
-export { fieldsText }
